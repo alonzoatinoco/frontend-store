@@ -1,0 +1,7 @@
+@import "componentes/_breakpoints";/*responsive*/
+@import "componentes/_normalize";/*libreria*/
+@import "componentes/_variables";/*se declararan antes de usar en el principal*/
+@import "componentes/_mixins";/*se crean para hacer mas facil el codigo*/
+@import "componentes/_placeholders";/* el codigo escrito aqui sera importado a selector que se quiera utiliar*/
+@import "componentes/_grids";/*resume toda la utilizacion del grid en funciones y mixins*/
+@import "componentes/_globales";/*inicio de css principal*/

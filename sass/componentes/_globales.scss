@@ -1,0 +1,19 @@
+/*-----------------principal-----------*/
+*,*::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;/* <--- <> 10px*/
+    /* scroll-snap-type: y mandatory; */
+}
+body{
+    font-size: 16px;
+    /* background-image: linear-gradient(to top, $color-gradient 0%, $color-claro 100%); */
+	color: $color-oscuro;
+	@include titulos($Fuente1);
+}
+h1,h2,h3{
+    text-align: center;
+}
