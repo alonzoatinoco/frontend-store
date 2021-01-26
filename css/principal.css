@@ -364,12 +364,31 @@ html {
 body {
   font-size: 16px;
   /* background-image: linear-gradient(to top, $color-gradient 0%, $color-claro 100%); */
-  color: #212121;
+  background-color: #9c27b0;
+  color: #fff;
   font-family: "Lato", sans-serif;
 }
 
 h1, h2, h3 {
   text-align: center;
+  color: #ffce00;
+  font-family: "Staatliches", cursive, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.contenedor {
+  max-width: 120rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*inicio de css principal*/

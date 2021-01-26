@@ -1,5 +1,6 @@
--var navegadores = ["Inicio","Sobre Mi", "Clientes", "Contactos"];
+-var navegadores = ["Tienda","Nosotros"];
 -var subtitulos = ["Diseño Web", "Aplicaciones Web", "E-comerce"];
+-var url = ["tienda.html", "nosotros.html"];
 <!--mixin para secccion Mis Servicios-->
 mixin caja(subtitulos,imagen,contenido,)
 	section.caja__contenido
@@ -7,6 +8,10 @@ mixin caja(subtitulos,imagen,contenido,)
 		.caja__contenido--images
 			i(class=imagen)
 		p=contenido
+
+mixin nav(nav, enlace,)
+		a(href=enlace)=nav
+
 doctype html
 html(lang="es")
 	head

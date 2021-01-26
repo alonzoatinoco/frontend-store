@@ -11,9 +11,21 @@ html{
 body{
     font-size: 16px;
     /* background-image: linear-gradient(to top, $color-gradient 0%, $color-claro 100%); */
-	color: $color-oscuro;
+    background-color: $color-primario;
+	color: $color-claro;
 	@include titulos($Fuente1);
 }
 h1,h2,h3{
     text-align: center;
+    color: $color-secundario;
+    @include titulos($Fuente3);
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+.contenedor{
+    @include max-width(120rem);
 }

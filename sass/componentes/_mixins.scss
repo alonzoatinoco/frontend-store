@@ -3,7 +3,7 @@
 	@if $fuente ==$Fuente1 {
 		font-family: $Fuente1;
 	} @else {
-		font-family: $Fuente2;
+		font-family: $Fuente3;
 		text-transform: uppercase;
 		font-weight: 700;
 	}
