@@ -1,7 +1,8 @@
-header
+header.header
         a(href="index.html")
-                img(src="../img/logo.png" alt="logo")
-nav.nav-principal
+                img(src="../img/logo.png" alt="logo" class="header__logo")
+nav.nav
         ul
+                <!--  a(class="nav__enlace" href=url[0])=navegadores[0] // a(class="nav__enlace" href=url[1])=navegadores[1]  -->
                 +nav(navegadores[0], url[0])
                 +nav(navegadores[1], url[1])

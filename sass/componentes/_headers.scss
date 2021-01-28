@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: center;
+    &__logo{
+        margin: 3rem 0;
+    }
+}
+.nav{
+    background-color: $color-primario-oscuro;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    ul{
+        display: flex;
+        gap: 2rem;
+    }
+    &__enlace{
+        font-size: 3rem;
+        color: $color-claro;
+        @include titulos($Fuente3);
+        &:hover,&--activo/*esta clase activa se incluye directamente
+        en la etiqueta dentro de index.html*/{
+            color: $color-secundario;
+        }
+    }
+}

@@ -392,3 +392,44 @@ img {
 }
 
 /*inicio de css principal*/
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header__logo {
+  margin: 3rem 0;
+}
+
+.nav {
+  background-color: #891190;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.nav ul {
+  display: flex;
+  gap: 2rem;
+}
+.nav__enlace {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Staatliches", cursive, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.nav__enlace:hover, .nav__enlace--activo {
+  color: #ffce00;
+}
+
+.footer {
+  background-color: #891190;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.footer__text {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Staatliches", cursive, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}

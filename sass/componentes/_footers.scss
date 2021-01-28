@@ -1,0 +1,10 @@
+.footer{
+    background-color: $color-primario-oscuro;
+    padding: 2rem;
+    margin-top: 2rem;
+    &__text{
+        font-size: 2rem;
+        text-align: center;
+        @include titulos($Fuente3);
+    }
+}
