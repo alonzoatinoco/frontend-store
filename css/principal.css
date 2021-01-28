@@ -406,11 +406,8 @@ img {
   display: flex;
   justify-content: center;
 }
-.nav ul {
-  display: flex;
-  gap: 2rem;
-}
 .nav__enlace {
+  margin-right: 7%;
   font-size: 3rem;
   color: #fff;
   font-family: "Staatliches", cursive, sans-serif;

@@ -10,11 +10,8 @@
     padding: 1rem 0;
     display: flex;
     justify-content: center;
-    ul{
-        display: flex;
-        gap: 2rem;
-    }
     &__enlace{
+        margin-right: 7%;
         font-size: 3rem;
         color: $color-claro;
         @include titulos($Fuente3);
