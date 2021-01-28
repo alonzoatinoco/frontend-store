@@ -3,9 +3,17 @@ block contenidos
     main.contenedor
         h1 Nuestros Productos
         .grid
-            .producto <!--hacer un mixin de esta caja-->
-                a(href="producto.html")
-                    img(class="producto__imagen" src="../img/1.jpg" alt="imagen camisa")
-                    .producto__info
-                        p.producto__nombre VueJS
-                        p.producto__precio $25
+            +caja('1.jpg', nombre[0], '$25')
+            +caja('2.jpg', nombre[1], '$25')
+            +caja('3.jpg', nombre[2], '$25')
+            +caja('4.jpg', nombre[3], '$25')
+            +caja('5.jpg', nombre[4], '$25')
+            +caja('6.jpg', nombre[5], '$25')
+            +caja('7.jpg', nombre[6], '$25')
+            +caja('8.jpg', nombre[7], '$25')
+            +caja('9.jpg', nombre[8], '$25')
+            +caja('10.jpg', nombre[9], '$25')
+            +caja('11.jpg', nombre[10], '$25')
+            +caja('12.jpg', nombre[11], '$25')
+            +caja('13.jpg', nombre[12], '$25')
+            +caja('14.jpg', nombre[13], '$25')

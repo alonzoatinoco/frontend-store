@@ -1,13 +1,14 @@
 -var navegadores = ["Tienda","Nosotros"];
--var subtitulos = ["Diseño Web", "Aplicaciones Web", "E-comerce"];
 -var url = ["index.html", "nosotros.html"];
-<!--mixin para secccion Mis Servicios-->
-mixin caja(subtitulos,imagen,contenido,)
-	section.caja__contenido
-		h3=subtitulos
-		.caja__contenido--images
-			i(class=imagen)
-		p=contenido
+-var nombre = ["VueJS","AngularJS", "ReactJS", "Redux", "NodeJS", "SASS", "HTML5", "Github", "BulmaCSS", "TypeScript", "Drupal", "JavaScript", "GraphQL", "Wordpress"];
+<!--mixin para productos-->
+mixin caja(imagen, nombre, precio,)
+	.producto
+		a(href="producto.html")
+			img.producto__imagen(src="../img/"+imagen alt=nombre)
+			.producto__info
+				p=nombre
+				p=precio
 
 mixin nav(nav, enlace,)
 		a(class="nav__enlace" href=enlace)=nav
