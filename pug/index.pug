@@ -1,4 +1,11 @@
 extend componentes/_plantilla.pug
 block contenidos
     main.contenedor
-            h1 Nuestros Productos
+        h1 Nuestros Productos
+        .grid
+            .producto <!--hacer un mixin de esta caja-->
+                a(href="producto.html")
+                    img(class="producto__imagen" src="../img/1.jpg" alt="imagen camisa")
+                    .producto__info
+                        p.producto__nombre VueJS
+                        p.producto__precio $25
