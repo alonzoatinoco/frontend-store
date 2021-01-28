@@ -417,6 +417,9 @@ img {
 .nav__enlace:hover, .nav__enlace--activo {
   color: #ffce00;
 }
+.nav__enlace:last-of-type {
+  margin-right: 0;
+}
 
 .footer {
   background-color: #891190;

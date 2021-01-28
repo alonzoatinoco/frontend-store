@@ -19,5 +19,8 @@
         en la etiqueta dentro de index.html*/{
             color: $color-secundario;
         }
+        &:last-of-type{
+            margin-right: 0;
+        }
     }
 }
