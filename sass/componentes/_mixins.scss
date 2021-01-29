@@ -8,6 +8,13 @@
 		font-weight: 700;
 	}
 }
+//mixinx para informacion producto
+@mixin info {
+	font-family: $Fuente3;
+	margin: 1rem 0;
+	text-align: center;
+	line-height: 1.2;
+}
 
 @mixin max-width($max-width: 800px){
 	max-width: $max-width;

@@ -7,8 +7,8 @@ mixin caja(imagen, nombre, precio,)
 		a(href="producto.html")
 			img.producto__imagen(src="../img/"+imagen alt=nombre)
 			.producto__info
-				p=nombre
-				p=precio
+				p.producto__nombre=nombre
+				p.producto__precio=precio
 
 mixin nav(nav, enlace,)
 		a(class="nav__enlace" href=enlace)=nav
