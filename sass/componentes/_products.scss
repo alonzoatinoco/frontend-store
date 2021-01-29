@@ -1,8 +1,9 @@
 .grid{
+    gap: 2rem;
+    @include display-grid;
     @include respon-to(540px){
-        gap: 2rem;
-        @include display-grid;
         @include grid-template-columns(1fr 1fr);
+        @include grid-template-rows(1fr);
     }
     @include media(tablet){
         /* column-gap: 1rem; */

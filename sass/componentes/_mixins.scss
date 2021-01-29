@@ -8,7 +8,7 @@
 		font-weight: 700;
 	}
 }
-//mixinx para informacion producto
+//mixinx para producto__nombre y producto__precio
 @mixin info {
 	font-family: $Fuente3;
 	margin: 1rem 0;
