@@ -530,3 +530,42 @@ img {
     grid-column: 2/3;
   }
 }
+.nosotros__contenido {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 2%;
+}
+@media only screen and (min-width: 768px) {
+  .nosotros__contenido {
+    font-size: 1.6rem;
+  }
+}
+
+.bloques {
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+@media only screen and (min-width: 540px) {
+  .bloques {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .bloques {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+
+.bloque {
+  text-align: center;
+}
+.bloque__imagen {
+  width: 100%;
+}
+.bloque__titulo {
+  margin: 0;
+}

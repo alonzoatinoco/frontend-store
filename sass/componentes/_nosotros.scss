@@ -12,4 +12,37 @@
             @include grid-column(2,3);
         }
     }
+    &__contenido{
+        font-size: 2rem;
+        line-height: 1.5;
+        padding: 2%;;
+        @include media(tablet){
+            font-size: 1.6rem;
+        }
+    }
+}
+
+//bloques
+.bloques{
+    gap: 2rem;
+    @include display-grid;
+    @include grid-template-columns(1fr);
+    @include grid-template-rows(1fr grid-repeat(3));
+    @include respon-to(540px){
+        @include grid-template-columns(1fr 1fr);
+        @include grid-template-rows(1fr 1fr);
+    }
+    @include media(desktop-m){
+        @include grid-template-columns(1fr grid-repeat(3));
+        @include grid-template-rows(1fr);
+    }
+}
+.bloque{
+    text-align: center;
+    &__imagen{
+        width: 100%;
+    }
+    &__titulo{
+        margin: 0;
+    }
 }
