@@ -1,6 +1,9 @@
 -var navegadores = ["Tienda","Nosotros"];
 -var url = ["index.html", "nosotros.html"];
 -var nombre = ["VueJS","AngularJS", "ReactJS", "Redux", "NodeJS", "SASS", "HTML5", "Github", "BulmaCSS", "TypeScript", "Drupal", "JavaScript", "GraphQL", "Wordpress"];
+-var subnosotros= ["El Mejor Precio","Para Desvs","Envio Gratis","La Mejor Calidad"];
+-var lorem = ["Lorem ipsum dolor sit, amet consectetur adipisicing elit.Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio."];
+-var lor = ["Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus necessitatibus "]
 <!--mixin para productos-->
 mixin caja(imagen, nombre, precio,)
 	.producto
@@ -9,6 +12,12 @@ mixin caja(imagen, nombre, precio,)
 			.producto__info
 				p.producto__nombre=nombre
 				p.producto__precio=precio
+<!--mixin para Nosotros/bloques-->
+mixin bloque(imagen, nombre, contenido,)
+	.bloque
+		img(src="../img/"+imagen, alt=nombre)
+		h3.bloque__titulo=nombre
+		p=contenido
 
 mixin nav(nav, enlace,)
 		a.nav__enlace(href=enlace)=nav

@@ -1,5 +1,5 @@
 
-<html><!--mixin para secccion Mis Servicios--><!DOCTYPE html>
+<html><!--mixin para productos--><!--mixin para Nosotros/bloques--><!DOCTYPE html>
   <html lang="es">
     <head>
       <title>Frontend Store</title>
@@ -16,12 +16,39 @@
   <body>
     <header class="header"><a href="index.html"><img class="header__logo" src="../img/logo.png" alt="logo"></a></header>
     <nav class="nav">
-      <ul><a class="nav__enlace" href="index.html">Tienda</a><a class="nav__enlace" href="nosotros.html">Nosotros</a>
+      <ul><!--  a(class="nav__enlace" href=url[0])=navegadores[0] // a(class="nav__enlace" href=url[1])=navegadores[1]  --><a class="nav__enlace" href="index.html">Tienda</a><a class="nav__enlace" href="nosotros.html">Nosotros</a>
       </ul>
     </nav>
     <main class="contenedor">
       <h1>Nosotros</h1>
+      <div class="nosotros">
+        <div class="nosotros__contenido">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio.</p>
+        </div><img class="nosotros__imagen" src="../img/nosotros.jpg" alt="imagen nosotros">
+      </div>
     </main>
+    <section class="contenedor comprar">
+      <h2 class="comprar__titulo">¿Porqué Comprar con nosotros?</h2>
+      <div class="bloques">
+          <div class="bloque"><img src="../img/icono_1.png" alt="El Mejor Precio"/>
+            <h3 class="bloque__titulo">El Mejor Precio</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus necessitatibus </p>
+          </div>
+          <div class="bloque"><img src="../img/icono_2.png" alt="Para Desvs"/>
+            <h3 class="bloque__titulo">Para Desvs</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus necessitatibus </p>
+          </div>
+          <div class="bloque"><img src="../img/icono_3.png" alt="Envio Gratis"/>
+            <h3 class="bloque__titulo">Envio Gratis</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus necessitatibus </p>
+          </div>
+          <div class="bloque"><img src="../img/icono_4.png" alt="La Mejor Calidad"/>
+            <h3 class="bloque__titulo">La Mejor Calidad</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus necessitatibus </p>
+          </div>
+      </div>
+    </section>
     <footer class="footer">
       <p class="footer__text">Front End Store - Todos los derechos reservados a Diego Alonzo Abregú Tinoco</p>
     </footer>

@@ -1,4 +1,16 @@
 extend componentes/_plantilla.pug
 block contenidos
     main.contenedor
-            h1 Nosotros
+        h1 Nosotros
+        .nosotros
+            .nosotros__contenido
+                p #{lorem}
+                p #{lorem}
+            img.nosotros__imagen(src="../img/nosotros.jpg", alt="imagen nosotros")
+    section.contenedor.comprar
+        h2.comprar__titulo ¿Porqué Comprar con nosotros?
+        .bloques
+            +bloque('icono_1.png',subnosotros[0],lor)
+            +bloque('icono_2.png',subnosotros[1],lor)
+            +bloque('icono_3.png',subnosotros[2],lor)
+            +bloque('icono_4.png',subnosotros[3],lor)

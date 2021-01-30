@@ -1,0 +1,15 @@
+.nosotros{
+    @include display-grid;
+    @include grid-template-rows(1fr auto);
+    @include media(tablet){
+        column-gap: 2rem;
+        @include grid-template-columns(1fr 1fr);
+    }
+    &__imagen{
+        width: 100%;
+        @include grid-row(1,2);
+        @include media(tablet){
+            @include grid-column(2,3);
+        }
+    }
+}

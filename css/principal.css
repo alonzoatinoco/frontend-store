@@ -506,3 +506,27 @@ img {
     grid-column: 2/4;
   }
 }
+
+.nosotros {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+@media only screen and (min-width: 768px) {
+  .nosotros {
+    column-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.nosotros__imagen {
+  width: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+@media only screen and (min-width: 768px) {
+  .nosotros__imagen {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+  }
+}
