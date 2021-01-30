@@ -1,3 +1,6 @@
+.comprar{
+    margin-top: 1rem;
+}
 .nosotros{
     @include display-grid;
     @include grid-template-rows(1fr auto);

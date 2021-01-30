@@ -1,4 +1,16 @@
 extend componentes/_plantilla.pug
 block contenidos
     main.contenedor
-            h1 Producto
+        h1 React JS
+        .camisa
+            img.camisa__imagen(src="../img/3.jpg", alt="Imagen Producto")
+            .camisa__contenido
+                p #{lorem}
+                form.formulario(action="")
+                    select.formulario__campo
+                        option(disabled selected)   -- Seleccionar Talla --
+                        option(value="chica")   Chica
+                        option(value="mediana") Mediana
+                        option(value="grande")  Grande
+                    input.formulario__campo(type="number" placeholder="Cantidad" min="1")
+                    input.formulario__submit(type="submit" value="Agregar al Carrito")

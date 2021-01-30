@@ -1,5 +1,5 @@
 
-<html><!--mixin para secccion Mis Servicios--><!DOCTYPE html>
+<html><!--mixin para productos de index.html--><!--mixin para Nosotros/bloques--><!DOCTYPE html>
   <html lang="es">
     <head>
       <title>Frontend Store</title>
@@ -20,7 +20,22 @@
       </ul>
     </nav>
     <main class="contenedor">
-      <h1>Producto</h1>
+      <h1>React JS</h1>
+      <div class="camisa"><img class="camisa__imagen" src="../img/3.jpg" alt="Imagen Producto">
+        <div class="camisa__contenido">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure repudiandae qui velit inventore voluptate, tenetur minus fuga corporis natus non ducimus maiores ullam labore atque molestiae voluptatem doloribus quae distinctio.</p>
+          <form class="formulario" action="">
+            <select class="formulario__campo">
+              <option disabled selected>  -- Seleccionar Talla --</option>
+              <option value="chica">  Chica</option>
+              <option value="mediana">Mediana</option>
+              <option value="grande"> Grande</option>
+            </select>
+            <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+            <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+          </form>
+        </div>
+      </div>
     </main>
     <footer class="footer">
       <p class="footer__text">Front End Store - Todos los derechos reservados a Diego Alonzo Abregú Tinoco</p>
