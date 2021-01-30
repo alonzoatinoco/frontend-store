@@ -599,6 +599,7 @@ img {
 }
 
 .camisa {
+  padding: 1rem;
   grid-template-columns: 1fr;
 }
 @media only screen and (min-width: 900px) {
